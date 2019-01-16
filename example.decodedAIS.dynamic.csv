@@ -1,0 +1,4 @@
+Region,Station_Location,AIS_Channel,year,month,day,hour,minute,second,TimeZone,ID,AIS_Class,Message_Type,Repeat_Indicator,MMSI,Speed_Over_Ground_SOG_knots,Position_Accuracy,Longitude_decimal_degrees,Latitude_decimal_degrees,Course_Over_Ground_COG_degrees,True_heading_HDG_degrees,Navigation_Status,TimeStamp_s
+P,Parke,A,2018,1,1,0,0,0,GMT,4,A,1,0,316001222,8.7,0,-122.7719033,48.34535833,190.8,200,5,0
+P,Helmcken,A,2018,1,1,0,0,0,GMT,7,A,3,0,366825999,3.3,1,-123.42537,48.140635,281.3,278,9,0
+P,Annacis,A,2018,1,1,0,0,0,GMT,8,A,1,0,316000007,0,0,-123.7138233,48.92606167,27.7,512,0,59

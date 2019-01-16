@@ -1,0 +1,4 @@
+Region,Station_Location,AIS_Channel,year,month,day,hour,minute,second,TimeZone,AIS_Class,Message_Type,Repeat_Indicator,MMSI,IMO_number,Call_Sign,Vessel_Name,Type_of_Ship_and_Cargo,Dimension_to_Bow_meters,Dimension_to_Stern_meters,Dimension_to_Port_meters,Dimension_to_Starboard_meters,Vessel_Length_meters,Vessel_Width_meters,Draught_decimeters,Destination
+P,WestVan,B,2018,1,1,0,0,0,GMT,A,5,0,218474005,9501470,DCQP4,EXAMPLE SHIP,72,141,225,29,19,366,48,137,ES SEA
+P,Annacis,B,2018,1,1,0,3,0,GMT,A,5,0,316019999,0,,TEST NAME,52,4,11,3,1,15,4,0,HALIFAX
+P,Parke,B,2018,1,1,1,8,0,GMT,A,5,0,367630010,0,WDH6777,JUST PRETENDING,37,6,7,2,3,13,5,20,VANCOUVER
