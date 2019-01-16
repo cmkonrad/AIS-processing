@@ -13,5 +13,7 @@ All code was written in R version 3.3.3.
 -	Specify desired area by giving lat/long coordinates of a 4-cornered region
 -	Consolidates all data from desired dates/region to a single .csv file
 -	This script uses: 
+
     o	Custom R function: GetPointsInArea_SpecifyRegion
+
     o	R package: mgcv
