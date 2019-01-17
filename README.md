@@ -26,7 +26,7 @@ These methods were developed in 2018 using data from the Canadian Coast Guard te
 
 # Extract raw vessel data from AIS data 
 ## Summary
-This section describes a process for extracting vessel information to be validated from AIS data, using a series of custom R scripts. It assumes you are using dynamic AIS data (aka quicklogs; for format see: example.decodedAIS.dynamic.csv) from a desired region and time period and have the accompanying static AIS data (aka slowlogs; for format see: example.decodedAIS.static.csv) for this time period. 
+This section describes a process for extracting unique combinations of vessel identifing information from AIS data from a desired region and time period, using a series of custom R scripts. This process can be used to gather vessel information for subsequent validation using reliable online data sources. It assumes you are using dynamic AIS data (aka quicklogs; for format see: example.decodedAIS.dynamic.csv) from a desired region and time period and have the accompanying static AIS data (aka slowlogs; for format see: example.decodedAIS.static.csv) for this time period. Optionally, you can use a pre-existing database of already validated vessels, to exclude these vessels from the list of new vessels discovered (for example of validated vessel file see: example.validatedvessels.csv).
 
 To extract data for only the region and timeframe of interest, you can use the process described above. 
 
@@ -41,9 +41,9 @@ For an example of this process carried out in full, see: NewMMSI_FromDynamic2017
 -	Reports proportion of MMSIs that are new each month
 -	Excludes and reports incidences of MMSIs with <7 or >9 digit MMSIs
 
-**Step 2:** Compare to clean list to find ships without matches
+**Step 2:** Compare to clean list to find ships without matches (optional)
 
--	Input: data frame of already validated vessel information (e.g. CleanShipData_2018_02_22.csv)
+-	Input: data frame of already validated vessel information (e.g. example.validatedvessels.csv)
 -	Output: vector of new MMSIs that aren’t already in the validated dataset
 -	Step can be omitted if there is no validated vessel information available
 
