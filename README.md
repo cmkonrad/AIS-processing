@@ -40,19 +40,23 @@ For an example of this process carried out in full, see: NewMMSI_FromDynamic2017
 -	Output: vector of all unique MMSIs
 -	Reports proportion of MMSIs that are new each month
 -	Excludes and reports incidences of MMSIs with <7 or >9 digit MMSIs
+
 **Step 2:** Compare to clean list to find ships without matches
 
 -	Input: data frame of already validated vessel information (e.g. CleanShipData_2018_02_22.csv)
 -	Output: vector of new MMSIs that aren’t already in the validated dataset
 -	Step can be omitted if there is no validated vessel information available
+
 **Step 3:** Run custom function ‘getMMSIdates’
 
 -	Inputs: vector of new MMSIs & quicklog file paths
 -	Output: a list, indexed by date, with a vector of new MMSIs for each date
+
 **Step 4:** Run custom function ‘SlowlogShipIDs’
 
 -	Inputs: list from previous function & slowlog file paths
 -	Output: data frame of vessel identifiers (MMSI, IMO number, call sign, vessel name) and vessel information extracted from slowlog for list of MMSIs
+
 **Step 5:** Run custom function ‘RemoveUselessReps’
 
 -	Input: data frame from previous function (or similar)
