@@ -9,9 +9,9 @@ filepath <- file.path("E:/AIS/Dynamic_Data", filelist)
 
 
 outfilepath <- "E:/AIS_Subset"            # specify directory where outfile should go
-outfilename = "CCG_gulf_June2017.csv"     # rename as needed
+outfilename = "AOI_June2017.csv"     # rename as needed
 
-# latitude and longitude coordinates for corners of area of interest
+# example latitude and longitude coordinates for corners of an area of interest
 left <- -67.9
 right <- -54.8
 top <- 47.9
