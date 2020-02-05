@@ -8,7 +8,7 @@ Code was written in R version 3.3.3 (2017-03-06) -- "Another Canoe"
 
 These methods were developed in 2018 using data from the Canadian Coast Guard terrestrial AIS network, for an analysis of vessels in the Eastern Shore Islands of Nova Scotia. These methods should also be applicable to satellite-AIS data (though modification would be required for the section on extracting raw vessel data). For additional details on the purpose, use and development of these scripts, see the following manuscript report:
 
-*** link to document not yet available ***
+https://waves-vagues.dfo-mpo.gc.ca/Library/4084996x.pdf
 
 
 # Extract decoded data from a target geographic region (and time period)
